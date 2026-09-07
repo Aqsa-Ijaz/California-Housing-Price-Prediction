@@ -65,12 +65,21 @@ The model was configured with:
 
 ## Evaluation Metrics
 
+The models achieved the following results on the test dataset:
+
+| Model | MAE | RMSE | R² Score |
+|---|---:|---:|---:|
+| Linear Regression | 0.533 | 0.746 | 0.576 |
+| Random Forest | 0.328 | 0.506 | 0.805 |
+
 The models were evaluated using:
 
 * Mean Absolute Error (MAE)
 * Mean Squared Error (MSE)
 * Root Mean Squared Error (RMSE)
 * R² Score
+
+The Random Forest Regressor performed significantly better than the Linear Regression baseline, achieving an R² score of approximately 0.805.
 
 ## Feature Importance
 
