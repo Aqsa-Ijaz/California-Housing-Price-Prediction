@@ -93,16 +93,13 @@ The project includes:
 * Random Forest Feature Importance plot
 * Residual Plot
 
-## Saved Model
+## How to Run
 
-The trained Random Forest model is saved using Joblib.
+1. Clone this repository.
+2. Install the required Python packages:
 
-```text
-models/random_forest_model.pkl
-```
-
-The saved model can later be loaded and used to make predictions without training the model again.
-
+```bash
+pip install -r requirements.txt
 ## Technologies Used
 
 * Python
@@ -124,6 +121,20 @@ California-Housing-Price-Prediction/
 ├── train_model.py
 └── README.md
 ```
+Run the training script:
+python train_model.py
+
+This will train the Random Forest model and generate the saved model file locally in the models folder.
+ 
+## Saved Model
+
+The trained Random Forest model is generated locally using Joblib.
+
+The model file is not included in this repository because it is larger than GitHub's standard file size limit.
+
+After running train_model.py, the model will be available at:
+
+models/random_forest_model.pkl
 
 ## Future Improvements
 
