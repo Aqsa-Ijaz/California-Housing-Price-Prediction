@@ -93,6 +93,22 @@ The project includes:
 * Random Forest Feature Importance plot
 * Residual Plot
 
+### Linear Regression — Actual vs Predicted
+
+![Linear Regression Actual vs Predicted](plots/linear_regression_actual_vs_predicted.png)
+
+### Random Forest — Feature Importance
+
+![Random Forest Feature Importance](plots/random_forest_feature_importance.png)
+
+### Random Forest — Actual vs Predicted
+
+![Random Forest Actual vs Predicted](plots/random_forest_actual_vs_predicted.png)
+
+### Random Forest — Residual Plot
+
+![Random Forest Residuals](plots/random_forest_residuals.png)
+
 ## How to Run
 
 1. Clone this repository.
